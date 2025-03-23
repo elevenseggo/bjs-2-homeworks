@@ -36,7 +36,7 @@ function differenceEvenOddWorker(...arr) {
         sumOddElement += arr[elem];
       }
     }
-    let result = Math.abs(sumEvenElement-sumOddElement);
+    let result = sumEvenElement-sumOddElement;
     return result;
     }
     else {
